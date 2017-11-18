@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="30dp"
+    android:background="@drawable/learn2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pc.kindakidz.Subject"
+    tools:showIn="@layout/activity_subject">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading"
+        android:id="@+id/btn1"
+        android:layout_gravity="center_horizontal"
+        android:background="#b7d778"
+        android:textColor="#031e42"
+        android:textSize="30dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:textStyle="bold"
+        android:layout_margin="25dp"
+        android:onClick="onButtonClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Writing"
+        android:id="@+id/btn2"
+        android:layout_gravity="center_horizontal"
+        android:background="#b7d778"
+        android:textColor="#031e42"
+        android:textSize="30dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:textStyle="bold"
+        android:layout_margin="25dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:id="@+id/btn3"
+        android:layout_gravity="center_horizontal"
+        android:background="#b7d778"
+        android:textColor="#031e42"
+        android:textSize="30dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:textStyle="bold"
+        android:layout_margin="25dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Objects"
+        android:id="@+id/btn4"
+        android:layout_gravity="center_horizontal"
+        android:background="#b7d778"
+        android:textColor="#031e42"
+        android:textSize="30dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:textStyle="bold"
+        android:layout_margin="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fc0303"
+        android:layout_gravity="center"
+
+        android:background="#fbfafa" />
+
+</LinearLayout>
